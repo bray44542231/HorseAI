@@ -1,0 +1,9 @@
+#to get done, 
+- make it so it says the winner of each race 
+- make it perform better probably with better model and better data
+
+#Prediction Approach Change: Instead of predicting the raw position of each horse, you’ll predict a score (performance metric) for each horse. These scores can be used to sort the horses within a race and determine their relative positions.
+
+#Group by Race: Ensure that you handle the dataset in a way that each race has its own group, and predictions are made for horses within that group. Afterward, you can sort the horses based on predicted scores for each race.
+
+#Assign Positions Based on Predicted Scores: Once you have the predicted scores for the horses in each race, you can rank them by sorting the predicted scores within each race and assigning the positions (1st, 2nd, 3rd, etc.).
